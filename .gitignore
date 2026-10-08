@@ -1,0 +1,27 @@
+# Python virtual environment
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Original DICOM data
+data/raw/
+
+# Processed medical imaging arrays
+data/processed/
+
+# Generated 3D models and analysis results
+results/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Editor and operating system files
+.vscode/
+.DS_Store
+Thumbs.db
+
+#Why are we doing this?
+Your project contains large medical imaging files. 
+We don't want to accidentally upload those files to GitHub.
